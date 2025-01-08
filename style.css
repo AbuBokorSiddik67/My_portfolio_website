@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
+
 /* Button All And Share All*/
 
 .btn{
@@ -27,12 +29,15 @@
 .section-description{
     font-size: 16px;
     color:black;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 .second-background{
     background-color: antiquewhite;
 }
-
+.text-center{
+    text-align: center;
+    margin: 40px 110px;
+}
 /* Style for nav */
 nav{
     display: flex;
@@ -106,18 +111,101 @@ nav ul li a{
     margin: 0px 100px 0px 100px;
     padding: 100px 40px;
     text-align: center;
+    margin-bottom: 40px;
 }
 /* Main Section */
 main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .about-items{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
 }
 .item-description{
     font-weight: 600;
     /* font-size: bold; */
+}
+/* Skill Container */
+.skill-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.skill{
+    padding: 60px 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    width: 170px;
+    
+}
+.skill-align{
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* Section-3 */
+.resume-conteiner{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    margin: 15px;
+}
+.expareance-title{
+    margin: 15px;
+}
+.exparence-subtitle{
+    font-size: 15px;
+    margin: 15px;
+}
+.exparence-discription, .exparence-subtitle{
+    color: #757575;
+    margin: 15px;
+}
+.resume hr{
+    margin: 15px 10px;
+}
+.download{
+    margin: 10px;
+}
+footer{
+    padding: 150px 150px;
+    display: flex;
+    gap: 25px;
+}
+.footer-column{
+    width: 50%;
+}
+.text{
+    color: #757575;
+    margin-bottom: 20px;
+}
+footer input[type="text"],input[type="email"]{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    width: 450px;
+    margin-bottom: 20px;
+    border: none;
+}
+textarea{
+    height: 50px;
+    width: 490px;
+    border: none;
+    margin-bottom: 20px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: white;
+}
+.im{
+    margin: 10px;
 }
