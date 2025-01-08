@@ -1,3 +1,123 @@
-h1{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Button All And Share All*/
+
+.btn{
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 15px;
+}
+.btn:hover{
+    font-size: 16px;
+}
+.section-title{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-description{
+    font-size: 16px;
+    color:black;
+    margin-bottom: 10px;
+}
+.second-background{
+    background-color: antiquewhite;
+}
+
+/* Style for nav */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px 0px 150px;
+    padding: 20px 0px;
+}
+
+/* Menu Style */
+span{
+    color: rgb(196, 35, 69);
+}
+.nav-title{
+    font-weight: 900px;
+    font-size: 35px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Banner Section */
+.banner-content{
+    max-width: 500px;
+}
+.banner-gritting{
+    font-size: 28px;
+    font-weight: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.banner-title{
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+.description{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.banner-pic{
+    width: 500px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px 20px 150px;
+}
+/* Over All */
+.header{
+    background-image: url("images/developer.png"),url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    /* height: 765px; */
+    background-size:contain;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+/* About section */
+.About{
+    border-radius: 10px;
+    margin: 0px 100px 0px 100px;
+    padding: 100px 40px;
+    text-align: center;
+}
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-items{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+    /* font-size: bold; */
 }
